@@ -21,7 +21,7 @@ public class Coche {
 	public void acelerar(Integer cantidad) {
 		if(cantidad > 0 && cantidad <= 120) {
 			this.velocidad += cantidad;
-		};
+		}
 
 	}
 
