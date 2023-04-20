@@ -1,0 +1,13 @@
+package com.company;
+
+public class CocheMain {
+	public static void main(String[] args) {
+		
+		String cohce = "alfa romeo";
+		Coche cocheObj = new Coche()
+		
+		
+		
+	}
+
+}
