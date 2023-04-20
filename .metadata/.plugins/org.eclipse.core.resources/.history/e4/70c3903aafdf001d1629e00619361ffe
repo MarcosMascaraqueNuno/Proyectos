@@ -14,9 +14,7 @@ public class CocheMain {
 		
 		CocheElectrico cocheElectrico = new CocheElectrico("Tesla Motors", "rojo", "honda", "civic", 1430.45, 5.4);
 
-		System.out.println(cocheElectrico);
-		System.out.println(cocheElectrico);
-		
+		System.out.println(cocheElectrico);;
 	}
 
 }
