@@ -1,0 +1,19 @@
+package src;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class Main {
+	static void copia(String origen, String destino) throws IOException{
+		try(	FileInputStream fis= new FileInputStream(new File(origen));
+				FileOutputStream fos= new FileOutputStream(destino);){
+		int unByte;
+		unByte= fis.read();
+		while(unByte != -1) {
+			fos.write(unByte);
+			unByte= fis.read();
+		}
+		}
+		
+	}
+}
