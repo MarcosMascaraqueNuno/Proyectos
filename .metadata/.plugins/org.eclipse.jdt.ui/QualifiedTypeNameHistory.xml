@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="ejercicio4.Ejercicio4.SmartDevice"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.company.CocheHibrido"/>
+    <fullyQualifiedTypeName name="com.company.CocheHidrogeno"/>
 </qualifiedTypeNameHistroy>

@@ -4,7 +4,8 @@ public class CocheMain {
 	public static void main(String[] args) {
 		
 		Coche cocheObj2 = new Coche("rojo", "honda", "civic", 1430.45, 5.4);
-		cocheObj2.acelerar(50);
+		System.out.println(cocheObj2);
+		cocheObj2.acelerar(120);
 		
 		System.out.println(cocheObj2);
 		
@@ -14,8 +15,10 @@ public class CocheMain {
 		
 		CocheElectrico cocheElectrico = new CocheElectrico("Tesla Motors", "rojo", "honda", "civic", 1430.45, 5.4);
 
+		CocheHidrogeno cocheHidrogeno = new CocheHidrogeno("Pruo", "rojo", "Honda", "Ampera", 1243.4, 5.7);
+
 		System.out.println(cocheElectrico);
-		System.out.println(cocheElectrico);
+		System.out.println(cocheHidrogeno);
 		
 	}
 

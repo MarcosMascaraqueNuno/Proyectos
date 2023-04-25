@@ -7,7 +7,7 @@ public class Coche {
 	String modelo;
 	Double peso;
 	Double largo;
-	Integer velocidad= 0;
+	int velocidad= 0;
 	// contructores
 	public Coche(String color, String fabricante, String modelo, Double peso, Double largo) {
 		this.color = color;
@@ -18,11 +18,10 @@ public class Coche {
 	}
 	
 	// comportamiento
-	public void acelerar(Integer cantidad) {
+	public void acelerar(int cantidad) {
 		if(cantidad > 0 && cantidad <= 120) {
 			this.velocidad += cantidad;
 		}
-
 	}
 
 	@Override
