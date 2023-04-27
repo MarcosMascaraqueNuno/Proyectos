@@ -2,9 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="ejercicio4.Ejercicio4.SmartDevice"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.company.CocheHidrogeno"/>
     <fullyQualifiedTypeName name="com.company.CocheHibrido"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.awt.dnd.peer.DragSourceContextPeer"/>
+    <fullyQualifiedTypeName name="com.company.CuentaBancaria"/>
 </qualifiedTypeNameHistroy>
